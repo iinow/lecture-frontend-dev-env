@@ -4,8 +4,15 @@
   "description": "\"프론트엔드 개발 환경의 이해\" 강의 자료입니다.",
   "main": ".eslintrc.js",
   "devDependencies": {
+    "@types/webpack-merge": "^4.1.5",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "image-loader": "0.0.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
   },
   "scripts": {
     "build": "webpack --progress"
